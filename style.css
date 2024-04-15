@@ -1,0 +1,780 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+       section2{
+         
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vh;
+        width: 100%;
+        background: #fff;
+
+        
+       }
+       .form-box{
+        position: relative;
+        width: 400px;
+        height: 450px;
+        background: rgb(216, 197, 235);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #000000;
+        border-radius: 20px;
+         
+
+       }  
+    
+.inputbox button img{
+
+    width: 20px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    display: inline;
+    
+
+
+}
+       .inputbox {
+        
+        position: relative;
+        margin: 30px 0;
+        width: 310px;
+        border-bottom: 2px solid #fff;
+
+       }
+ .inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50);
+    font-size: 1em;
+    pointer-events: none;
+
+ }  
+ .inputbox input{
+    width: 100%;
+    height: 65px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+ } 
+input:focus~label,
+input:focus~ :valid{
+    top: -2px;
+}
+button{
+    /* sign up button */
+
+
+width: 170px;
+height: 36px;
+left: 1px;
+top: 310px;
+border-radius: 40px;
+background: rgb(181, 174, 241);
+
+
+
+}
+
+ .navlist{
+    
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50%;
+    /* HOME */
+
+position: absolute;
+width: 87px;
+height: 40px;
+right: 459px;
+top: 42px;
+
+
+
+/* more */
+
+position: absolute;
+width: 114px;
+height: 40px;
+right: 25px;
+top: 42px;
+
+
+
+/* contact */
+
+position: absolute;
+width: 134px;
+height: 40px;
+right: 232px;
+top: 42px;
+
+
+}
+
+.hero {
+    /* From AI designers */
+
+position: absolute;
+width: 361px;
+height: 62px;
+left: px;
+top: 800px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 62px;
+
+color: rgba(0, 117, 255, 0.94);
+
+
+
+}
+
+.hero .cards{
+    display: flex;
+    gap: 4rem;
+    /* Frame 3 */
+
+
+width: 1398px;
+height: 480px;
+left: 42px;
+top: 431px;
+overflow-x: scroll;
+
+
+}
+.cards .card{
+
+
+    width: 100%;
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.content h1{
+  
+        /* Furnitures, */
+color: #000000; 
+ 
+}
+
+.card:nth-child(1){
+ 
+    background-image: url(img\ 1.jpg);
+    /* unsplash:_HqHX3LBN18 */
+
+
+width: 544px;
+height: 480px;
+left: 0px;
+top: 0px;
+
+
+
+}
+
+.card:nth-child(2){
+
+    
+    background-image: url(img\ 2.jpg);
+    /* unsplash:fZuleEfeA1Q */
+
+
+width: 720px;
+height: 480px;
+left: 631px;
+top: 0px;
+
+
+
+
+}
+
+.content h2{
+    /* Your one step interior confusion solution... */
+
+
+width: 550px;
+height: 40px;
+left: calc(50% - 550px/2);
+top: calc(50% - 40px/2 + 445px);
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 1%;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.container {
+    /* home */
+
+position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+}
+
+    .container3{
+        /* Rectangle 3 */
+
+position: absolute;
+width: 1440px;
+height: 335px;
+left: 34px;
+top: 1500px;
+
+background: rgba(155, 155, 155, 0.18);
+
+    }
+
+
+    .container3 img2{
+       /* Ellipse 3 */
+
+position: absolute;
+width: 264px;
+height: 261.62px;
+left: 200px;
+top: 60px;
+background: #D9D9D9;
+ background-image: url(img\ 3.jpg);
+ background-position: center;
+ background-size: cover;
+    }
+ 
+ .container3 .text{
+
+
+  /* Carrie Breeve */
+
+position: absolute;
+width: 382px;
+height: 95px;
+left: 575px;
+top: 152px;
+
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 400;
+font-size: 79px;
+line-height: 95px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Oxnard,CA 152411315121 carriebreeve@gmail.com */
+position: absolute;
+width: 277px;
+height: 97px;
+left: 625px;
+top: 50px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+  }
+
+
+
+  .container4{
+    
+/* Rectangle 4 */
+
+position: absolute;
+width: 1440px;
+height: 335px;
+left: 34px;
+top: 1850px;
+
+background: rgba(155, 155, 155, 0.18);
+
+
+  }
+   .container4 img3{
+     
+
+    position: absolute;
+    width: 264px;
+    height: 261.62px;
+    right: 200px;
+    top: 60px;
+    background: #D9D9D9;
+     background-image: url(img\ 4.jpg);
+     background-position: center;
+     background-size: cover;
+    
+
+   }
+
+   .container4 .text2{
+
+    /* Luke Cristina */
+
+position: absolute;
+width: 386px;
+height: 95px;
+right: 514px;
+top: 152px;
+
+font-family: 'Dancing Script';
+font-style: normal;
+font-weight: 400;
+font-size: 79px;
+line-height: 95px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* San Francisco,CA 152411315121 lukecristina@gmail.com */
+
+position: absolute;
+width: 268px;
+height: 97px;
+right: 589px;
+top: 50px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+text-align: right;
+
+color: #000000;
+
+
+   }
+
+
+   .container5{
+ 
+    /* OUR BEST WORK */
+
+position: absolute;
+width: 491px;
+height: 88px;
+left: calc(50% - 491px/2 + 9.5px);
+top: 2200px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 59px;
+line-height: 88px;
+/* identical to box height */
+text-align: right;
+
+color: #000000;
+  
+
+
+   }
+
+
+.container5 img4{
+
+    /* unsplash:PyeXkOVmG1Y */
+
+position: absolute;
+width: 476px;
+height: 318px;
+right: 300px;
+top: 98px;
+background: url(img\ 5.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+ .text3 h6{
+      /* Acme Interior Designe */
+
+position: absolute;
+width: 455px;
+height: 64px;
+left: 500px;
+top: 0%;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 64px;
+/* identical to box height */
+text-align: left;
+
+color: #000000;
+
+
+}
+
+p{
+    /* Lorem ipsum dolor sit amet consectetur. Vitae in sit ac sapien fermentum et. Donec quis id est nec aenean. Eget risus tortor risus lectus varius aliquet sagittis enim nec. Semper adipiscing etiam netus nisi turpis consequat pellentesque. Morbi sit blandit metus in tortor sollicitudin iaculis. */
+
+position: absolute;
+width: 404px;
+height: 196px;
+left: 500px;
+top: 50px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+
+color: #000000;
+
+
+}
+p1{
+    /* Lorem ipsum dolor sit amet consectetur. Condimentum vitae nunc sit at arcu pellentesque tempor aliquam. Est ut nam augue non donec tempus pulvinar neque imperdiet. Netus venenatis nunc accumsan auctor ut. Integer molestie non faucibus ultricies. Ultrices scelerisque nam ac sit. */
+
+position: absolute;
+width: 407px;
+height: 196px;
+right: 500px;
+top: 50px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 28px;
+text-align: right;
+
+color: #000000;
+
+
+}
+
+
+.container6 img5{
+       
+    /* unsplash:WFgSotZQECo */
+
+position: absolute;
+width: 458px;
+height: 306px;
+left: 789px;
+top: 2800px;
+
+background: url(img\ 6.jpg);
+background-position: center;
+background-size: cover;
+
+}
+
+.text4 h7{
+    /* Aml Interior Designe */
+
+position: absolute;
+width: 433px;
+height: 64px;
+right: 500px;
+top: 0%;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 64px;
+/* identical to box height */
+text-align: right;
+
+color: #000000;
+
+
+}
+
+
+.container7 img6{
+
+
+    position: absolute;
+    width: 547px;
+    height: 628px;
+    left: 893px;
+    top: 3400px;
+    
+   
+    
+    background: url(img\ 9.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+/* unsplash:0Y1qUg1w2bs */
+
+
+
+}
+
+.container7 h8{
+     /* Project : Living Room Interiors */
+
+position: absolute;
+width: 694px;
+height: 71px;
+right: 550px;
+top: 80px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 71px;
+
+color: #000000;
+background: #5ee7e7;
+
+
+}
+
+
+
+.container7 h10{
+    /* Our Role: */
+
+position: absolute;
+width: 215px;
+height: 71px;
+left: calc(1% - 215px/2 - 587.5px);
+top: 125px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 71px;
+
+color: #000000;
+
+
+}
+ p2{
+    /* Lorem ipsum dolor sit amet consectetur. Dui morbi cursus purus quam gravida non et. Vitae non dolor volutpat sit morbi. Neque proin arcu integer ut augue morbi mauris lacus. Nulla mi lacinia vitae est ac quam lacus. */
+
+position: absolute;
+width: 699px;
+height: 318px;
+left:calc(1% - 215px/2 - 587.5px) ;
+top: 180px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 53px;
+
+color: rgba(0, 0, 0, 0.75);
+
+
+ }
+
+
+
+
+ footer{
+  /* Frame 20 */
+
+position: absolute;
+width: 1440px;
+height: 378px;
+left: 0px;
+top: 4000px;
+
+background: #4BBDD0;
+
+ }
+  .container8{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+  }
+   .footer{
+    width: 33.3%;
+
+    
+
+   }
+    h11{
+        /* Contact Us: */
+
+position: absolute;
+width: 271px;
+height: 74px;
+left: 10px;
+top: 5px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 74px;
+
+
+
+
+
+color: #FFFFFF;
+
+
+    }
+    .footer-content p3{
+        /* Email: */
+
+position: absolute;
+width: 108px;
+height: 57px;
+left: 21px;
+top: 79px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 158.2%;
+/* identical to box height, or 57px */
+
+color: #FFFFFF;
+
+
+
+    }
+
+    .footer-content p4{
+        /* customercare@trialshopy.com */
+
+position: absolute;
+width: 448px;
+height: 51px;
+left: 21px;
+top: 130px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 158.2%;
+/* identical to box height, or 51px */
+
+color: #FFFFFF;
+
+
+    }
+
+    h12{
+        /* Pay as you wish: */
+
+position: absolute;
+width: 264px;
+height: 57px;
+right: 30px;
+top: 0px;
+
+font-family: 'Literata';
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 158.2%;
+/* identical to box height, or 57px */
+
+color: #FFFFFF;
+
+
+    }
+    .footer-content2 img{ 
+        
+/* Frame 43 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0%;
+gap: 40px;
+
+position: absolute;
+width: 309px;
+height: 55px;
+right: 0px;
+top: 87px;
+
+background: #4BBDD0;
+
+
+
+    }
+
+    .social-icons .fab{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color: #fff;
+        margin-right:15px
+    }
+
+    .footer-content li{
+        /* Frame 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+row-gap: 17px;
+
+position: absolute;
+width: 225px;
+height: 184px;
+left: calc(50% - 225px/2 - 0.5px);
+top: 112px;
+
+
+    }
